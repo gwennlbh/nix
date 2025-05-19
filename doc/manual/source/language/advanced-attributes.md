@@ -49,7 +49,7 @@ Derivations can declare some infrequently used optional attributes.
     holding the path of the file containing the value of attribute
     *x*. This is useful when you need to pass large strings to a
     builder, since most operating systems impose a limit on the size
-    of the environment (typically, a few hundred kilobyte).
+    of the environment (typically, a few hundred kilobytes).
 
   - [`__structuredAttrs`]{#adv-attr-structuredAttrs}\
     If the special attribute `__structuredAttrs` is set to `true`, the other derivation
